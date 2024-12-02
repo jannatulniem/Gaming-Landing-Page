@@ -1,0 +1,73 @@
+@media screen and (max-width: 575px) {
+    :root {
+      --heading-one-fs: 48px;
+      --primary-title-fs: 36px;
+      --secondary-title-fs: 18px;
+      --eighteen-fs: 16px;
+    }
+  
+    header {
+      margin-bottom: 60px;
+    }
+    .container {
+      padding: 0 30px;
+    }
+    nav {
+      flex-direction: column;
+    }
+  
+    .menu-bar {
+      flex-direction: column;
+    }
+  
+    .row {
+      flex-direction: column;
+    }
+  
+    .hero-row,
+    .play-row {
+      flex-direction: column-reverse;
+    }
+  
+    .column {
+      width: 100%;
+    }
+  
+    .hero-content {
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+    .play-content,
+    .play-games {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .funny-items {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .grid-games,
+    .footer-menu,
+    .social-icons {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    ul.footer-links {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .careers-section {
+      padding-bottom: 60px;
+    }
+    .mobile-column {
+      display: block;
+    }
+    .career-row-content {
+      flex-direction: row;
+    }
+  
+    .careers-right-bg {
+      position: static;
+      display: none;
+    }
+  }
